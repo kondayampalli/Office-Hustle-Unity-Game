@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/OFFICE%20HUSTLE%20V2/UI/Style%20Sheets/MenuStyles.uss?fileID=7433441132597879392&amp;guid=99f36f60ea9eac24991b368b9298d3e3&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="menu-container" class="menu-container">
+        <ui:VisualElement name="main-menu-panel" class="menu-panel">
+            <ui:Label text="OFFICE HUSTLE" class="game-title" />
+            <ui:Label text="Survive the corporate chaos!" class="game-subtitle" />
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Start Game" name="start-button" class="menu-button primary-button" />
+                <ui:Button text="Quit" name="quit-button" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="pause-menu-panel" class="menu-panel">
+            <ui:Label text="PAUSED" class="menu-title" />
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Resume" name="resume-button" class="menu-button primary-button" />
+                <ui:Button text="Restart" name="restart-button" class="menu-button" />
+                <ui:Button text="Main Menu" name="main-menu-button" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="game-over-panel" class="menu-panel">
+            <ui:Label text="GAME OVER" class="menu-title game-over-title" />
+            <ui:Label text="Reason" name="game-over-reason" class="game-over-reason" />
+            <ui:Label text="Final Score: 0" name="final-score" class="final-score" />
+            <ui:VisualElement class="button-container">
+                <ui:Button text="Try Again" name="game-over-restart" class="menu-button primary-button" />
+                <ui:Button text="Main Menu" name="game-over-main-menu" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,91 @@
+/* MenuStyles.uss */
+.menu-container {
+    flex: 1;
+    background-color: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-panel {
+    background-color: rgba(40, 40, 40, 0.95);
+    border-radius: 20px;
+    padding: 40px;
+    min-width: 400px;
+    align-items: center;
+    border-width: 2px;
+    border-color: #FFD700;
+}
+
+.game-title {
+    font-size: 48px;
+    color: #FFD700;
+    -unity-font-style: bold;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+.game-subtitle {
+    font-size: 20px;
+    color: #B0B0B0;
+    margin-bottom: 40px;
+    -unity-font-style: italic;
+}
+
+.menu-title {
+    font-size: 36px;
+    color: #FFD700;
+    -unity-font-style: bold;
+    margin-bottom: 30px;
+}
+
+.game-over-title {
+    color: #F44336;
+}
+
+.game-over-reason {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+
+.final-score {
+    font-size: 24px;
+    color: #FFD700;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    align-items: center;
+    width: 100%;
+}
+
+.menu-button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #FFD700;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    transition: all 0.3s;
+}
+
+.menu-button:hover {
+    background-color: rgba(255, 215, 0, 0.3);
+    border-color: white;
+    scale: 1.05;
+}
+
+.primary-button {
+    background-color: #FFD700;
+    color: #1a1a1a;
+    -unity-font-style: bold;
+}
+
+.primary-button:hover {
+    background-color: #FFC700;
+}

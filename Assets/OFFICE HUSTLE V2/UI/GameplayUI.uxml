@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/OFFICE%20HUSTLE%20V2/UI/Style%20Sheets/GameplayStyles.uss?fileID=7433441132597879392&amp;guid=d6e067525c909c54fa66cfe8c9332d02&amp;type=3#GameplayStyles" />
+    <ui:VisualElement name="gameplay-container" class="gameplay-container">
+        <ui:VisualElement name="top-hud" class="top-hud">
+            <ui:Label text="Score: 50" name="score-label" class="score-label" />
+            <ui:ProgressBar value="0" name="stress-bar" title="Stress: 0%" class="stress-bar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="current-task-container" class="current-task-container">
+            <ui:Label text="Current Task" class="section-header" />
+            <ui:Label text="No active task" name="current-task-label" class="current-task-label" />
+            <ui:ProgressBar value="0" name="task-progress-bar" class="task-progress-bar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="task-queue-container" class="task-queue-container">
+            <ui:Label text="Task Queue" class="section-header" />
+            <ui:ScrollView name="task-queue" class="task-queue" />
+        </ui:VisualElement>
+        <ui:VisualElement name="task-progress-overlay" class="task-progress-overlay">
+            <ui:VisualElement class="progress-content">
+                <ui:Label text="Performing Task..." class="progress-label" />
+                <ui:ProgressBar value="0" name="task-completion-progress" class="completion-progress" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
